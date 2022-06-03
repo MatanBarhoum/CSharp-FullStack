@@ -9,7 +9,7 @@ namespace WebApplication3
 
     public class DBEngine
     {
-        public static string connectionString = "Data Source=MATAN-235;Initial Catalog=ShutdownProject;Integrated Security=True";
+        public static string connectionString = "Data Source={database};Initial Catalog=ShutdownProject;Integrated Security=True";
         public string Month { get; set; }
         public string Year { get; set; }
         public List<string> Years { get; set; }
